@@ -1,25 +1,27 @@
 <html>
 <head>
-<link rel="stylesheet" href="task1.css" >
-<script type="text/javascript" src="task1.js"></script> 
+<link rel="stylesheet" href="login.css" >
+<script type="text/javascript" src="login_form.js"></script> 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background-image:url('1.jpg');color:white">
-<center><h1 id="up">SLEEK LOGIN FORM<h1></center>
-<div id="ic">
+<center><h1 id="header">SLEEK LOGIN FORM<h1></center>
+<div id="icon">
 <i class="fa fa-envelope-o"></i>
 </div>
-<div id="ic1">
+<div id="icon1">
 <i class="fa fa-lock"></i>
 </div>
-<div id="main">
+<form>
+<div id="main_form">
 <p style="font-size:33px; margin-bottom:35px; font-weight:100 ">Log in to your Account</p>
-<input type="text" placeholder="EMAIL" id="user" class="in" style="margin-top: -13px"><br><br>
-<input type="password" placeholder="PASSWORD" id="pass" class="in"><br><br>
+<input type="email" placeholder="EMAIL" id="user" class="input" style="margin-top: -13px"><br><br>
+<input type="password" placeholder="PASSWORD" id="pass" class="input"><br><br>
 <input type="checkbox">Remember me<br><br><br>
 <button type="submit" id="sin" onclick="react();" <!--onclick="parent.location='task1.1.html'"--> <b>LOGIN</b></button>
 <button type="submit" id="reg" >REGISTER NEW ACCOUNT-></button>
+</form> 
 </div>
 <center><footer style="margin-top:400px;color:black;font-family:arial">
 <p>&copy;2016 Sleek Login Form. All Right Reserved | Design by Jagdeep Singh</p>

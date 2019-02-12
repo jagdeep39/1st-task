@@ -1,9 +1,9 @@
-#up{
+#header{
 		padding-top:35px;
 	font-family:arial;
 	font-size:40px;
 }
-#main{
+#main_form{
 	/*width:9cm;
 	height:8cm;
 	*/
@@ -33,15 +33,15 @@
 	font-family:arial;
 	background-color:rgb(23,49,72);
 }
-#ic{
-    padding:125px 0px 0px 480px;
+#icon{
+    padding:145px 0px 0px 480px;
 	position:absolute;
 }
-#ic1{
-    padding:177px 0px 0px 480px;
+#icon1{
+    padding:196px 0px 0px 480px;
 	position:absolute;
 }
-.in{
+.input{
 
 	padding:5px 0px 6px 40px;				
 	border:1px solid white;
