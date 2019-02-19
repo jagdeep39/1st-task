@@ -3,7 +3,10 @@ var userpass;
 function react(){
   username = document.getElementById("user");
   userpass = document.getElementById("pass");
-  if(username.value == "" && userpass.value==""){
+  parent.location="response.html";
+  window.location.href="response.html";
+  location.href = "response.html";
+ if(username.value == "" && userpass.value==""){
     alert('fill then form first');
   }
   else if(username.value == ""){
@@ -21,7 +24,7 @@ function react(){
      alert("invalid username ")
   }
   else{
-   parent.location='response.html';
+   
     if (typeof(Storage) !== "undefined")  {
      localStorage.setItem('username',username.value);
       sessionStorage.setItem('password',userpass.value);
@@ -38,3 +41,4 @@ function load(){
   document.getElementById("name").innerHTML = localStorage.getItem("username");
   document.getElementById("password").innerHTML =sessionStorage.getItem("password");
 }	
+
